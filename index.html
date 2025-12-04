@@ -8,14 +8,54 @@
 </head>
 <body>
     <!-- web sayfasının iskeleti -->
-    <header></header>  <!-- en baştaki menü kısmı-->
+        <!-- HEADER: Her sayfada aynı olacak üst kısım -->
+    <header class="site-header">
+
+        <!-- LOGO: İSÜ FASHION yazısı -->
+        <div class="logo">
+            <span class="logo-main">İSÜ</span>
+            <span class="logo-sub">FASHION</span>
+        </div>
+
+        <!-- MENÜ: 5 tane ana başlık -->
+        <nav class="main-nav">
+            <!-- Bulunulan sayfaya active class'ı veriyoruz -->
+            <a href="index.html" class="active">ANA SAYFA</a>
+            <a href="kombin.html">KOMBİN KÖŞESİ</a>
+            <a href="trend.html">TREND AVCISI</a>
+            <a href="diy.html">DIY &amp; THRIFT</a>
+            <a href="ogrenci.html">ÖĞRENCİ VİTRİNİ</a>
+        </nav>
+
+        <!-- İKONLAR: Arama ve Kullanıcı -->
+        <div class="header-icons">
+            <button class="icon-btn" aria-label="Ara">🔍</button>
+            <button class="icon-btn" aria-label="Kullanıcı Profili">👤</button>
+        </div>
+
+    </header>
+
+     <!-- en baştaki menü kısmı-->
+
     
-    <main> <!--web sayfaları main içinde olacak-->
-        <section></section> 
-        <!-- her sayfa bir section u gösterir -->
-    </main>
-    <footer></footer> 
-    <!-- web sayfanın en son kısmı -->
+    <main>
+    <!--HER0: Elle fotoğrafı arka plan olan büyük banner -->
+    <section class="hero-banner">
+        <div class="hero-content">
+            <h1 class="hero-main">Kampüs kraliçesi:</h1>
+            <h2 class="hero-title">İSÜ fashion ile stilin parlasın!</h2>
+
+            <p class="hero-subtitle">
+                moda, özgüven ve kampüs enerjisinin buluştuğu diğital dergiye hoş geldin!
+            </p>
+            <p class="hero-desc">
+                İSÜ FASHION; kombin fikirleri, trend avcılığı Ve stil ipuçlarıyla
+                kampüs hayatını daha şık ve eğlenceli  hale getirmeyi amaçlayan 
+                öğrenci odaklı bir moda platformudur.
+            </p>
+        </div>
+    </section>
+        </main>
     
 </body>
 </html>
