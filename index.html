@@ -1,23 +1,857 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kombin Köşesi: Günlük, Final ve Etkinlik Kombinleri</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="javascript.js"></script> -->
 
-<meta name="description" content="Kampüs hayatına özel hazırlanmış günlük, final haftası, sunum ve kulüp etkinlikleri için hazır kombin tarifleri ve stil önerileri.">
-<meta name="keywords" content="kombin, moda, stil, kampüs, üniversite, kıyafet, günlük, blazer, etek, pantolon">
-<meta name="author" content="Kombin Köşesi Ekibi">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>İSÜ FASHİON</title>
+</head>
+<body>
+    <!-- web sayfasının iskeleti -->
+        <!-- HEADER: Her sayfada aynı olacak üst kısım -->
+    <header class="site-header">
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght=400;400&display=swap" rel="stylesheet">
+        <!-- LOGO: İSÜ FASHION yazısı -->
+        <div class="logo">
+            <span class="logo-main">İSÜ</span>
+            <span class="logo-sub">FASHION</span>
+        </div>
 
+        <!-- MENÜ: 5 tane ana başlık -->
+        <nav class="main-nav">
+            <!-- Bulunulan sayfaya active class'ı veriyoruz -->
+            <a href="#anasayfa" class="active">ANA SAYFA</a>
+            <a href="#kombin">KOMBİN KÖŞESİ</a>
+            <a href="#trend-avcisi">TREND AVCISI</a>
+            <a href="#diy">DIY &amp; THRIFT</a>
+            <!-- <a href="ogrenci.html">ÖĞRENCİ VİTRİNİ</a> -->
+        </nav>
+
+        <!-- İKONLAR: Arama ve Kullanıcı -->
+        <div class="header-icons">
+            <button class="icon-btn" aria-label="Ara">🔍</button>
+            <button class="icon-btn" aria-label="Kullanıcı Profili">👤</button>
+        </div>
+
+    </header>
+
+     <!-- en baştaki menü kısmı-->
+
+    
+    <main>
+    <!--HER0: Elle fotoğrafı arka plan olan büyük banner -->
+    <section id="anasayfa" class="hero-banner">
+        <div class="hero-content">
+            <h1 class="hero-main">Kampüs kraliçesi:</h1>
+            <h2 class="hero-title">İSÜ fashion ile stilin parlasın!</h2>
+
+            <p class="hero-subtitle">
+                moda, özgüven ve kampüs enerjisinin buluştuğu diğital dergiye hoş geldin!
+            </p>
+            <p class="hero-desc">
+                İSÜ FASHION; kombin fikirleri, trend avcılığı Ve stil ipuçlarıyla
+                kampüs hayatını daha şık ve eğlenceli  hale getirmeyi amaçlayan 
+                öğrenci odaklı bir moda platformudur.
+            </p>
+        </div>
+    </section> <!--HERO BİTTİ-->
+    <section class="style-section">
+  <div class="style-header">
+    <h2>Stil Önerileri</h2>
+    <p>Kampüs günün için hangi tarz sana daha yakın? Aşağıdaki kombinlerden birini seç, kendi "main character" stilini yarat! ❤️</p>
+  </div>
+
+  <div class="style-slider">
+    <div class="style-track">
+      <!-- 1. SET (6 kart) -->
+      <article class="style-card">
+        <img src="img/barbiecore.jpg" alt="Barbiecore kombin">
+        <h3>BARBIECORE</h3>
+        <p>Pembe elbise ve topuklularla tam bir kampüs kraliçesi havası.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/sportychic.jpg" alt="Sporty chic kombin">
+        <h3>SPORTY CHIC</h3>
+        <p>Ders arası kahve molasında hem rahat hem şık görünmek isteyenlere.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/softacademic.jpg" alt="Soft academic kombin">
+        <h3>SOFT ACADEMIC</h3>
+        <p>Kütüphane günleri için romantik, yumuşak tonlarda akademik stil.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/streatstyle.jpg" alt="Street style kombin">
+        <h3>STREET STYLE</h3>
+        <p>Uzun kaban, sweatshirt ve mini etekle şehir sokaklarında cool yürüyüşler.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/elegantminimal.jpg" alt="Elegant minimal kombin">
+        <h3>ELEGANT MINIMAL</h3>
+        <p>Nötr tonlar ve şık çanta ile sade ama zarif kampüs stili.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/cozycampus.jpg" alt="Cozy campus kombin">
+        <h3>COZY CAMPUS</h3>
+        <p>Sıcacık kazak ve mini etekle hem rahat hem tatlı bir görünüm.</p>
+      </article>
+
+      <!-- 2. SET (YUKARIDAKİ 6 KARTIN BİREBİR KOPYASI) -->
+      <article class="style-card">
+        <img src="img/barbiecore.jpg" alt="Barbiecore kombin">
+        <h3>BARBIECORE</h3>
+        <p>Pembe elbise ve topuklularla tam bir kampüs kraliçesi havası.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/sportychic.jpg" alt="Sporty chic kombin">
+        <h3>SPORTY CHIC</h3>
+        <p>Ders arası kahve molasında hem rahat hem şık görünmek isteyenlere.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/softacademic.jpg" alt="Soft academic kombin">
+        <h3>SOFT ACADEMIC</h3>
+        <p>Kütüphane günleri için romantik, yumuşak tonlarda akademik stil.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/streatstyle.jpg" alt="Street style kombin">
+        <h3>STREET STYLE</h3>
+        <p>Uzun kaban, sweatshirt ve mini etekle şehir sokaklarında cool yürüyüşler.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/elegantminimal.jpg" alt="Elegant minimal kombin">
+        <h3>ELEGANT MINIMAL</h3>
+        <p>Nötr tonlar ve şık çanta ile sade ama zarif kampüs stili.</p>
+      </article>
+
+      <article class="style-card">
+        <img src="img/cozycampus.jpg" alt="Cozy campus kombin">
+        <h3>COZY CAMPUS</h3>
+        <p>Sıcacık kazak ve mini etekle hem rahat hem tatlı bir görünüm.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- ========== KOMBİN KÖŞESİ (ARKADAŞIN BÖLÜMÜ) ========== -->
+<section id="kombin" class="kombin-section">
+  <div class="kombin-header">
+    <h2>Kombin Köşesi</h2>
+    <p>
+     <p>Kampüste “Bugün ne giysem?” diye düşünenler için hazır kombin tarifleri. Farklı günler ve ruh hâlleri için pratik öneriler burada.</p>
+</header>
+
+<div class="container">
+
+    <h2>Duruma Göre Kombinler</h2>
+
+    <div class="cards">
+        <div class="card" data-kombin-id="1" data-title="Sunum Günü Kombini">
+            <div class="favorite" data-id="1">♥</div>
+            <div class="suggestion">🌟 Minimal takılar ve doğal fresh bir makyaj bu kombine çok yakışır! 🌟</div>
+            <img src="img/sunumkombini.jpeg" alt="Sunum Kombini" loading="lazy">
+            <h3>Sunum Günü Kombini</h3>
+            <ul>
+                <li>Krem blazer + beyaz basic tişört</li>
+                <li>Yüksek bel kumaş pantolon</li>
+                <li>Loafer veya kısa topuklu bot</li>
+            </ul>
+        </div>
+
+        <div class="card" data-kombin-id="2" data-title="Final Haftası Konfor Kombini">
+            <div class="favorite" data-id="2">♥</div>
+            <div class="suggestion">🌟 Dağınık topuz ya da düşük at kuyruğu hem rahat etirir hem de yüzünü fresh gösterir! 🌟</div>
+            <img src="img/sinavhaftasikombini.jpeg" alt="Final Haftası" loading="lazy">
+            <h3>Final Haftası Konfor Kombini</h3>
+            <ul>
+                <li>Oversize sweatshirt</li>
+                <li>Bol kesim pantolon / jogger</li>
+                <li>Spor ayakkabı</li>
+            </ul>
+        </div>
+
+        <div class="card" data-kombin-id="3" data-title="Kampüs Café Buluşması">
+            <div class="favorite" data-id="3">♥</div>
+            <div class="suggestion">🌟 Şapka veya güneş gözlüğü tarzını tamamlar! 🌟</div>
+            <img src="img/kafedebulusmakombini.jpeg" alt="Café Buluşması" loading="lazy">
+            <h3>Kampüs Café Buluşması</h3>
+            <ul>
+                <li>Fit triko veya crop</li>
+                <li>Mom jean veya midi etek</li>
+                <li>Sneaker / kısa bot</li>
+            </ul>
+        </div>
+
+        <div class="card" data-kombin-id="4" data-title="Kulüp / Akşam Etkinliği Kombini">
+            <div class="favorite" data-id="4" >♥</div>
+            <div class="suggestion">🌟 Parlak ruj ve aksesuar geceyi tamamlar! 🌟</div>
+            <img src="img/konserkombini.jpeg" alt="Etkinlik Kombini" loading="lazy">
+            <h3>Kulüp / Akşam Etkinliği Kombini</h3>
+            <ul>
+                <li>Saten gömlek veya şık body</li>
+                <li>Palazzo pantolon veya mini etek</li>
+                <li>Topuklu bot</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="hafta">
+        <h2>Haftanın Parçası: Oversize Blazer</h2>
+        <ul>
+            <li>Ders Kombini: Blazer + mom jean + basic tişört</li>
+            <li>Kahve Buluşması: Blazer + midi etek + kısa bot</li>
+            <li>Kulüp Etkinliği: Blazer + mini elbise + topuklu bot</li>
+            <li>Randevu Kombini: Blazer + kalem etek + topuklu ayakkabı</li>
+            <li>Alışveriş Kombini: Blazer + skinny jean + sneaker</li>
+            <li>Fotoğraf Çekimi: Blazer + midi etek + şık topuklu</li>
+            <li>Brunch: Blazer + crop + bol pantolon</li>
+            <li>Sinema Günü: Blazer + casual elbise + loafer</li>
+            <li>Hafta Sonu Gezisi: Blazer + şort + sneaker</li>
+            <li>Kültürel Etkinlik: Blazer + maxi etek + şık topuklu</li>
+        </ul>
+    </div>
+
+    <div class="rehber">
+        <h2>Hızlı Kombin Rehberi</h2>
+        <ul>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>3 Renk Kuralı Kırıcı:</strong> Kombininizin %90'ı nötr (siyah, beyaz, bej) ise, aksesuarlarda 4-5 canlı ton kullanmaktan çekinmeyin.
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Hacim Oyunu:</strong> Balon kol bir bluz giyiyorsanız, alt parçanızın deri tayt veya sigaret pantolon gibi ince silüetli olması sofistike bir denge yaratır.
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Tek Parça Kahramanlar:</strong> Beyaz keten takım elbise, siyah balıkçı yaka triko elbise ve camel rengi trençkot, zamansız stiliniz için vazgeçilmezlerdir.
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Aksesuar Odak Noktası:</strong> Büyük, heykelsi bir kolye veya iddialı bir kemer kullanıyorsanız, diğer takıları minimal tutun. Vurguyu tek bir parçaya verin.
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Mevsimler Üst Üste:</strong> Yazlık slip elbisenizin üzerine kışın oversize hırka ve kalın bot giyerek parçalara dört mevsim hayat verin.
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Desen Karıştırma:</strong> Çizgili bir tişörtü, aynı tonlarda küçük çiçek desenli bir etekle birleştirin. Farklı ölçeklerdeki desenler bir arada çok iyi durur.
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Ayakkabı Karşıtlığı:</strong> Blazer ve kumaş pantolon gibi ciddi bir kombini kalın tabanlı spor ayakkabılarla tamamlayarak resmiyeti kırın (Smart-Casual).
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Çanta Kimlik Kartı:</strong> Kombin ne kadar sadeyse, çantanız o kadar gösterişli olabilir. (Örn: Siyah kot-tişört kombini + neon yeşil zincir çanta).
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Sıcak/Soğuk Dokular:</strong> Kışın kalın yün kazak ile parlak saten etek, yazın ise ince ipek gömlek ile kaba denim şort gibi zıt dokuları birleştirin.
+                </div>
+            </li>
+            <li>
+                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
+                    <strong>Tek Renk Vurgusu:</strong> Tek bir canlı rengi (fuşya, elektrik mavisi) çantanızda, ayakkabınızda ve rujunuzda tekrar ederek sofistike bir uyum yakalayın.
+                </div>
+            </li>
+        </ul>
+    </div>
+  <!-- Modal -->
+  <div id="kombinModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modalTitle">Kombin Adı</h3>
+      <div class="modal-details">
+        <img id="modalImage" src="" alt="Kombin Detay Görseli">
+        <div>
+          <h4>Temel Parçalar</h4>
+          <ul id="modalList"></ul>
+          <p class="modal-note">Ek Not: Bu kombin mevsim geçişleri için idealdir.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ========== /KOMBİN KÖŞESİ ========== -->
+ <!-- =========================
+     3. KISIM – TREND AVCISI (DÜZELTİLMİŞ)
+========================= -->
+ <div class="brand-txt"><h1>TREND AVCISI</h1></div>
+        </a>
+        <nav><a href="#" class="nav-btn">TRENDLER</a></nav>
+    </div>
+</header>
+
+<div class="marquee-container">
+    <div class="marquee-track">
+        <span class="marquee-item">YENİ SEZON</span><span class="marquee-item">PODYUMDAN KAMPÜSE</span><span class="marquee-item">VİZE HAFTASI ŞIKLIĞI</span><span class="marquee-item">GÜMÜŞ & PEMBE</span>
+        <span class="marquee-item">TREND AVCISI</span><span class="marquee-item">YENİ SEZON</span><span class="marquee-item">PODYUMDAN KAMPÜSE</span><span class="marquee-item">VİZE HAFTASI ŞIKLIĞI</span>
+        <span class="marquee-item">GÜMÜŞ & PEMBE</span><span class="marquee-item">TREND AVCISI</span><span class="marquee-item">YENİ SEZON</span><span class="marquee-item">PODYUMDAN KAMPÜSE</span>
+    </div>
+</div>
+
+<main class="main-stage">
+    
+    <section class="hero-section reveal-base reveal-zoom">
+        <div class="hero-label">2025 SONBAHAR / KIŞ</div>
+        <h2 class="hero-title"><span>TREND AVCISI</span></h2>
+        <p class="hero-desc">Bu hafta kampüs stilinde öne çıkanlar, renk analizleri ve bütçe dostu alternatifler. Vize haftasında bile şıklıktan ödün vermek istemeyenler için.</p>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <div class="content-grid">
+        <div class="left-col">
+            <div class="reveal-base reveal-left">
+                <h3 class="section-head">Trend Radar</h3>
+                <div class="radar-frame">
+                    <div class="radar-inner">
+                        <div class="radar-cards">
+                            <article class="trend-card">
+                                <div class="card-img-wrap"><img src="img/img/Soft Barbiecore.jpg.png" alt="Trend 1"></div>
+                                <div class="card-info">
+                                    <div class="card-top"><h4 class="card-title">Soft Barbiecore</h4><span class="icon-badge">💋</span></div>
+                                    <p class="card-desc">Pastel tonların feminen detaylarla buluşması.</p>
+                                </div>
+                            </article>
+                            <article class="trend-card">
+                                <div class="card-img-wrap"><img src="img/img/Futuristic Silver.jpg.png" alt="Trend 2"></div>
+                                <div class="card-info">
+                                    <div class="card-top"><h4 class="card-title">Futuristic Silver</h4><span class="icon-badge">✨</span></div>
+                                    <p class="card-desc">Metalik parlaklık ve modern dokunuşlar.</p>
+                                </div>
+                            </article>
+                            <article class="trend-card">
+                                <div class="card-img-wrap"><img src="img/img/Minimal Academia.jpg.png" alt="Trend 3"></div>
+                                <div class="card-info">
+                                    <div class="card-top"><h4 class="card-title">Minimal Academia</h4><span class="icon-badge">📖</span></div>
+                                    <p class="card-desc">Sade, şık ve entelektüel bir görünüm.</p>
+                                </div>
+                            </article>
+                            <article class="trend-card">
+                                <div class="card-img-wrap"><img src="img/img/Cozy Layering.jpg.png" alt="Trend 4"></div>
+                                <div class="card-info">
+                                    <div class="card-top"><h4 class="card-title">Cozy Layering</h4><span class="icon-badge">☕</span></div>
+                                    <p class="card-desc">Sıcak, rahat ve katmanlı giyim.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal-base reveal-up" style="transition-delay: 0.2s;">
+                <h3 class="section-head" style="margin-top:50px;">Sezonun Yıldızları</h3>
+                <div class="pieces-row">
+                    <div class="piece-box">
+                        <div class="piece-header"><div class="piece-icon-bg">👜</div><span class="piece-tag">FAVORİ</span></div>
+                        <div><span class="piece-name">Doodle Silver Bag</span><span class="piece-detail"> Gümüş üstüne neon pembe çizimler.</span></div>
+                    </div>
+                    <div class="piece-box">
+                        <div class="piece-header"><div class="piece-icon-bg">👟</div><span class="piece-tag">RAHAT</span></div>
+                        <div><span class="piece-name">Chunky Loafers</span><span class="piece-detail"> Maskülen ve kolejli havası.</span></div>
+                    </div>
+                    <div class="piece-box">
+                        <div class="piece-header"><div class="piece-icon-bg">🎀</div><span class="piece-tag">POPÜLER</span></div>
+                        <div><span class="piece-name">Kurdele Detaylar</span><span class="piece-detail"> Her yer kurdele dolu.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <aside class="right-col">
+            <div class="sidebar-widget reveal-base reveal-right">
+                <h4 class="widget-title">MODA İPUÇLARI 💡</h4>
+                <ul class="tips-list">
+                    <li><div class="tip-icon">📐</div><div class="tip-text"><strong>DENGE KURALI</strong>Üst parça bolsa, alt parçayı dar tut.</div></li>
+                    <li><div class="tip-icon">🥪</div><div class="tip-text"><strong>SANDVİÇ TAKTİĞİ</strong>Ayakkabı ve üst giyimin rengini eşle.</div></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget reveal-base reveal-right" style="transition-delay: 0.5s;">
+                <h4 class="widget-title">LÜKS & BÜTÇE 💸</h4>
+                <div class="dupe-row">
+                    <div class="dupe-side"><span class="dupe-head">ORİJİNAL</span><span class="dupe-item">Miu Miu Babet</span><span class="dupe-price">34.000₺</span></div>
+                    <div class="dupe-mid">VS</div>
+                    <div class="dupe-side"><span class="dupe-head">ALTERNATİF</span><span class="dupe-item">Zara</span><span class="dupe-price">1.399₺</span></div>
+                </div>
+            </div>
+            <div class="sidebar-widget reveal-base reveal-right">
+    <h4 class="widget-title">HAFTANIN TOP 5 🔥</h4>
+    <ul class="top-list">
+        <li>
+            <div><span class="rank-badge">1.</span> Bordo Deri Ceket</div>
+            <span>🧥</span>
+        </li>
+        <li>
+            <div><span class="rank-badge">2.</span> Chunky Loafer</div>
+            <span>👞</span>
+        </li>
+        <li>
+            <div><span class="rank-badge">3.</span> Gümüş Çanta</div>
+            <span>👜</span>
+        </li>
+        <li>
+            <div><span class="rank-badge">4.</span> Oversize Blazer</div>
+            <span>🧷</span>
+        </li>
+        <li>
+            <div><span class="rank-badge">5.</span> Tote Bag</div>
+            <span>🎒</span>
+        </li>
+    </ul>
+</div>
+<div class="reveal-base reveal-zoom" style="transition-delay: 0.3s;">
+                <h3 class="section-head" style="margin-top:50px;">Renk Paleti</h3>
+                <div class="palette-box">
+                    <div class="pal-item"><div class="pal-circle c-pink"></div><span class="pal-name">Soft Pink</span><span class="pal-desc">Feminen & romantik.</span></div>
+                    <div class="pal-item"><div class="pal-circle c-lilac"></div><span class="pal-name">Lilac</span><span class="pal-desc">Sakin ama iddialı.</span></div>
+                    <div class="pal-item"><div class="pal-circle c-cream"></div><span class="pal-name">Cream</span><span class="pal-desc">Uyumlu nötr ton.</span></div>
+                </div>
+        </aside>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+</section>
+<!-- =========================
+     3. KISIM BİTTİ
+========================= -->
+<!-- =========================
+     4. KISIM – CHECKLIST & BUDGET
+========================= -->
+<section class="section-four">
+
+  <!-- CHECKLIST -->
+  <div class="checklist">
+    <h2>✔️ Kombin Checklist</h2>
+    <ul>
+      <li>Üst ve alt renk uyumu kontrol edildi</li>
+      <li>Hava durumuna uygun parça seçildi</li>
+      <li>Rahat ve uzun süre giyilebilir ayakkabı</li>
+      <li>Aksesuarlar kombini boğmayacak şekilde seçildi</li>
+      <li>Çanta boyutu gün planına uygun</li>
+      <li>Saç ve makyaj stil ile uyumlu</li>
+    </ul>
+  </div>
+
+  <!-- BUDGET -->
+  <div class="budget">
+    <h2>💸 Öğrenci Dostu Bütçe</h2>
+    <ul>
+      <li>Basic Tişört / Üst: <strong>200 – 400 ₺</strong></li>
+      <li>Pantolon / Etek: <strong>400 – 800 ₺</strong></li>
+      <li>Ayakkabı: <strong>800 – 1.500 ₺</strong></li>
+      <li>Çanta: <strong>500 – 1.200 ₺</strong></li>
+      <li>Aksesuar: <strong>100 – 300 ₺</strong></li>
+      <li><strong>Toplam Ortalama: 2.000 – 3.500 ₺</strong></li>
+    </ul>
+  </div>
+
+</section>
+
+
+<section  id="diy" class="hero">
+  <h1>DIY & THRIFT</h1>
+  <p>
+    Bu bölümde, öğrenciyken yüksek bütçelere gerek kalmadan nasıl stil sahibi
+    olunabileceğini keşfediyoruz. Pazarlardan, ikinci el uygulamalardan ve
+    küçük butiklerden parça seçerken kullanabileceğin ipuçlarını topladık.
+  </p>
+</section>
+
+<!-- NEREDEN NE BULUNUR -->
+<section class="sources">
+  <h2>Nereden Ne Bulunur?</h2>
+
+  <div class="card-wrapper">
+    <div class="card">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <h3>Sosyete & Semt Pazarları</h3>
+      <p>
+        Takılar, basic tişörtler ve yazlık elbiseler için ideal.
+        Kumaş inceliği ve dikiş kalitesi mutlaka kontrol edilmeli.
+      </p>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-shirt"></i>
+      <h3>İkinci El / Thrift</h3>
+      <p>
+        Blazer, jean ve deri ceket gibi parçalar için çok avantajlı.
+        Yırtık ve lekeler mutlaka incelenmeli.
+      </p>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-mobile-screen"></i>
+      <h3>Dolap / Gardrops / Vinted</h3>
+      <p>
+        Etiketli ya da az kullanılmış ürünleri uygun fiyata bulmak mümkün.
+        Satıcı yorumları çok önemli.
+      </p>
+    </div>
+
+    <div class="card">
+      <i class="fa-solid fa-store"></i>
+      <h3>Küçük Online Butikler</h3>
+      <p>
+        Basic parçalar ve aksesuarlar için uygun.
+        Kullanıcı fotoğrafları ve beden yorumları mutlaka okunmalı.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CHECKLIST -->
+<section id="section4" class="section-four">
+
+  <section class="checklist">
+    <h2>Alırken Nelere Dikkat Etmelisin?</h2>
+    <ul>
+      <li>Kumaş çok ince veya aşırı sert olmamalı</li>
+      <li>Fermuarı birkaç kez açıp kapat</li>
+      <li>Dikiş yerlerinde sökülme var mı kontrol et</li>
+      <li>Renk solması veya ton farkı var mı bak</li>
+      <li>Ayakkabılarda taban ve iç kısım incelenmeli</li>
+    </ul>
+  </section>
+
+  <section class="budget">
+    <h2>150 TL ile Neler Yapılabilir?</h2>
+    <ul>
+      <li>1 basic tişört + 1 çift küpe + 1 saç tokası</li>
+      <li>2 adet basic tişört</li>
+      <li>1 ikinci el blazer (pazarlıkla)</li>
+    </ul>
+  </section>
+
+</section>
+    </main>
+
+<!-- =========================
+     4. KISIM BİTTİ
+========================= -->
+<footer>
+  <div class="footer-menu">
+    <a href="#">Ana Sayfa</a>
+    <a href="#">Kombin Köşesi</a>
+    <a href="#">Trend Avcısı</a>
+    <a href="#">DIY & Thrift</a>
+    <a href="#">Öğrenci Vitrini</a>
+  </div>
+
+  <div class="footer-info">
+    <p>© 2025 İSÜ FASHION – Campus Glam Edition</p>
+    <p>E-posta: isufashion@campus.com</p>
+  </div>
+
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#"><i class="fab fa-pinterest"></i></a>
+  </div>
+</footer>
+</body>
+</html>
 <style>
-    /* Genel Stil ve Reset */
-    :root {
-        /* Soft Pembe Tonları */
-        --pink-light: #fef7fb; /* Çok Açık Pembe Arka Plan */
-        --pink-primary:#ff5eb6;/* Ana Soft Pembe */
-        --pink-accent: #e48aa2; /* Vurgu Soft Pembesi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    background-color: #ffd6f5;  
+        font-style: italic;
+}
+
+.site-header {
+    background: linear-gradient(to right, #ff5eb6, #bb458c); 
+    height: 70px;
+    padding: 0 40px;
+    display: flex;                 
+    align-items: center;           
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;    
+    line-height: 1.1;
+}
+
+.logo-main {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.25em;   
+
+    
+    background: linear-gradient(45deg, #ffffff, #e5e5e5, #ffbde8);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    
+    text-shadow: 0 0 6px rgba(255,255,255,0.9);
+}
+
+.logo-sub {
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    color: #fce9ff;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;                
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #e5e5e5;           
+    padding-bottom: 3px;      
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover {
+    color: #ff3b9c;
+}
+
+.main-nav a.active {
+    color: #f3ecef;                         
+    border-bottom-color: #ff3b9c;           
+}
+
+.header-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-btn {
+    background: none;        
+    border: none;            
+    color: #e5e5e5;          
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    color: #ff3b9c;
+}
+
+.hero-banner {
+    margin-top: 20px;
+    height: 450px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+
+    
+    background: url("img/hero.jpg") center/cover no-repeat;
+}
+   
+
+.hero-content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    color: #ffffff;
+    background: rgba(176, 0, 107, 0.4); 
+}
+
+.hero-main {
+    font-size: 26px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.hero-title {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.hero-subtitle {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.hero-desc {
+    font-size: 14px;
+    line-height: 1.7;
+    max-width: 480px;
+}
+/* ================== STİL ÖNERİLERİ BÖLÜMÜ ================== */
+
+.style-section {
+    padding: 40px 40px 70px;
+    background: #ffeaf5;
+}
+
+.style-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.style-header h2 {
+    font-size: 20px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #b0006b;
+}
+
+.style-header p {
+    font-size: 13px;
+    color: #7b5870;
+}
+
+/* Kaydırma alanı */
+.style-slider {
+    position: relative;
+    overflow: hidden;        /* sadece görünmesi gereken kısım */
+}
+
+/* Kartların bulunduğu şerit */
+.style-track {
+    display: flex;
+    gap: 24px;
+    padding: 10px 4px;
+    animation: style-scroll 35s linear infinite;  /* 35sn = daha yumuşak */
+}
+
+/* Her kombin kartı */
+.style-card {
+    flex: 0 0 220px;         /* kart genişliği */
+    background: #ffeef7;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(176, 0, 107, 0.15);
+    padding: 16px 14px 18px;
+    text-align: center;
+}
+
+/* Fotoğraflar */
+.style-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    background-color:#fff;
+}
+
+/* Kombin başlığı – hafif parıltılı */
+.style-card h3 {
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #b0006b;
+    margin-bottom: 4px;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+}
+
+/* Açıklama metni */
+.style-card p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #7b5870;
+}
+
+/* Şeridin sağdan sola durmadan kayması */
+@keyframes style-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* 12 kartın yarısı = ilk 6 kartlık yolu kaydırıyoruz */
+        transform: translateX(-50%);
+    }
+}
+
+
+
+/* --- Kombin Kartlarının Düzenli ve Fotoğrafların TAM Görünmesi --- */
+
+.style-box {
+    width: 240px;               
+    padding: 20px;
+    border-radius: 18px;
+    background: #fff5f8;
+    box-shadow: 0 4px 10px rgba(255, 120, 160, 0.15);
+    text-align: center;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.style-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(255, 120, 160, 0.25);
+}
+
+.style-box img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 14px;
+    margin-bottom: 12px;
+}
+
+/* Kart İçindeki Başlık */
+.style-box h3 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #d90078;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+/* Kart Açıklaması */
+.style-box p {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #444;
+}
+/* =========================================================
+MERVE KARADENİZ 
+=========================================================*/
+
+:root {
+--pink-light: #fef7fb; /* Çok Açık Pembe Arka Plan */
+        --pink-primary:#ff4f9a;/* Ana Soft Pembe */
+        --pink-accent: #ff4f9a; /* Vurgu Soft Pembesi */
         --text-color: #333;
         --card-bg: #fffefe;
     }
@@ -220,7 +1054,7 @@
         font-size: 1em;
     }
     .hafta ul li {
-        background:#ff77b7; /* Bir ton koyu soft pembe */
+        background: #d1578c; /* Bir ton koyu soft pembe */
         padding: 10px 15px;
         border-radius: 8px;
         transition: background 0.3s;
@@ -349,294 +1183,787 @@
 </style>
 </head>
 <body>
+<style>
+/* =========================================================
+   3. KISIM CSS — TREND AVCISI (SADECE #trend-avcisi)
+   ========================================================= */
+/* CSS Değişkenleri: Sitedeki renk ve ölçüleri tek bir merkezden yönetmek için kullanılır */
+:root {
+    --bg-body: #F9DDE6;       /* Sayfa arka plan rengi */
+    --bg-card: #ffffff;       /* Kartların arka plan rengi */
+    --color-titles: #bb458c;  /* Başlıkların ana pembe tonu */
+    --color-brand: #ff5eb6;   /* Ana marka rengi */
+    --color-dark: #2D2D2D;    /* Genel koyu metin rengi */
+    --color-gray: #666666;    /* İkincil gri metin rengi */
+    --header-grad: linear-gradient(90deg, #ff5eb6, #ff85c6); /* Menüdeki renk geçişi */
+    --glitter-grad: linear-gradient(45deg, #ff5eb6, #ffb2dd, #fff, #bb458c, #ff5eb6); /* Parlayan çerçeve efekti */
+    --max-width: 1150px;      /* İçeriğin maksimum genişliği */
+    --header-height: 80px;    /* Üst menü yüksekliği */
+    --trans-fast: 0.3s ease;  /* Hızlı animasyon süresi */
+    --trans-med: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Yaylanan animasyon efekti */
+}
 
-<header>
-    <h1>Kombin Köşesi</h1>
-    <p>Kampüste “Bugün ne giysem?” diye düşünenler için hazır kombin tarifleri. Farklı günler ve ruh hâlleri için pratik öneriler burada.</p>
-</header>
+/* Tüm elemanların kutu boyutlandırmasını padding dahil olarak ayarlar */
+*, *::before, *::after { box-sizing: border-box; }
 
-<div class="container">
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-body);
+    color: var(--color-dark);
+    padding-top: var(--header-height); /* Sabit menü için üstten boşluk */
+    padding-bottom: 80px;
+    line-height: 1.6;
+    overflow-x: hidden; /* Yatay kaydırmayı engeller */
+    cursor: default;
+}
 
-    <h2>Duruma Göre Kombinler</h2>
+/* Link, Liste ve Resim Sıfırlamaları */
+a { text-decoration: none; color: inherit; transition: var(--trans-fast); }
+ul { list-style: none; margin: 0; padding: 0; }
+img { max-width: 100%; display: block; }
+h1, h2, h3, h4 { margin: 0; font-family: 'Playfair Display', serif; font-weight: 700; line-height: 1.25; color: var(--color-titles); }
 
-    <div class="cards">
-        <div class="card" data-kombin-id="1" data-title="Sunum Günü Kombini">
-            <div class="favorite" data-id="1">♥</div>
-            <div class="suggestion">🌟 Minimal takılar ve doğal fresh bir makyaj bu kombine çok yakışır! 🌟</div>
-            <img src="img/sunumkombini.jpeg" alt="Sunum Kombini" loading="lazy">
-            <h3>Sunum Günü Kombini</h3>
-            <ul>
-                <li>Krem blazer + beyaz basic tişört</li>
-                <li>Yüksek bel kumaş pantolon</li>
-                <li>Loafer veya kısa topuklu bot</li>
-            </ul>
-        </div>
+/* --- ANİMASYON TANIMLARI --- */
 
-        <div class="card" data-kombin-id="2" data-title="Final Haftası Konfor Kombini">
-            <div class="favorite" data-id="2">♥</div>
-            <div class="suggestion">🌟 Dağınık topuz ya da düşük at kuyruğu hem rahat etirir hem de yüzünü fresh gösterir! 🌟</div>
-            <img src="img/sinavhaftasikombini.jpeg" alt="Final Haftası" loading="lazy">
-            <h3>Final Haftası Konfor Kombini</h3>
-            <ul>
-                <li>Oversize sweatshirt</li>
-                <li>Bol kesim pantolon / jogger</li>
-                <li>Spor ayakkabı</li>
-            </ul>
-        </div>
+/* Renkli çerçevenin akış animasyonu */
+@keyframes borderFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
-        <div class="card" data-kombin-id="3" data-title="Kampüs Café Buluşması">
-            <div class="favorite" data-id="3">♥</div>
-            <div class="suggestion">🌟 Şapka veya güneş gözlüğü tarzını tamamlar! 🌟</div>
-            <img src="img/kafedebulusmakombini.jpeg" alt="Café Buluşması" loading="lazy">
-            <h3>Kampüs Café Buluşması</h3>
-            <ul>
-                <li>Fit triko veya crop</li>
-                <li>Mom jean veya midi etek</li>
-                <li>Sneaker / kısa bot</li>
-            </ul>
-        </div>
+/* Metinlerin hafifçe süzülme hareketi */
+@keyframes floatText {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
 
-        <div class="card" data-kombin-id="4" data-title="Kulüp / Akşam Etkinliği Kombini">
-            <div class="favorite" data-id="4" >♥</div>
-            <div class="suggestion">🌟 Parlak ruj ve aksesuar geceyi tamamlar! 🌟</div>
-            <img src="img/konserkombini.jpeg" alt="Etkinlik Kombini" loading="lazy">
-            <h3>Kulüp / Akşam Etkinliği Kombini</h3>
-            <ul>
-                <li>Saten gömlek veya şık body</li>
-                <li>Palazzo pantolon veya mini etek</li>
-                <li>Topuklu bot</li>
-            </ul>
-        </div>
+/* Aşağı ok işaretinin zıplama efekti */
+@keyframes bounceArrow {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(10px); }
+    60% { transform: translateY(5px); }
+}
 
-    </div>
+/* Kartların üzerinden geçen parlama efekti */
+@keyframes shineEffect { 100% { left: 125%; } }
 
-    <div class="hafta">
-        <h2>Haftanın Parçası: Oversize Blazer</h2>
-        <ul>
-            <li>Ders Kombini: Blazer + mom jean + basic tişört</li>
-            <li>Kahve Buluşması: Blazer + midi etek + kısa bot</li>
-            <li>Kulüp Etkinliği: Blazer + mini elbise + topuklu bot</li>
-            <li>Randevu Kombini: Blazer + kalem etek + topuklu ayakkabı</li>
-            <li>Alışveriş Kombini: Blazer + skinny jean + sneaker</li>
-            <li>Fotoğraf Çekimi: Blazer + midi etek + şık topuklu</li>
-            <li>Brunch: Blazer + crop + bol pantolon</li>
-            <li>Sinema Günü: Blazer + casual elbise + loafer</li>
-            <li>Hafta Sonu Gezisi: Blazer + şort + sneaker</li>
-            <li>Kültürel Etkinlik: Blazer + maxi etek + şık topuklu</li>
-        </ul>
-    </div>
+/* Kayan yazı şeridinin (Marquee) sola kayma animasyonu */
+@keyframes scrollLeft { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
-    <div class="rehber">
-        <h2>Hızlı Kombin Rehberi</h2>
-        <ul>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>3 Renk Kuralı Kırıcı:</strong> Kombininizin %90'ı nötr (siyah, beyaz, bej) ise, aksesuarlarda 4-5 canlı ton kullanmaktan çekinmeyin.
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Hacim Oyunu:</strong> Balon kol bir bluz giyiyorsanız, alt parçanızın deri tayt veya sigaret pantolon gibi ince silüetli olması sofistike bir denge yaratır.
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Tek Parça Kahramanlar:</strong> Beyaz keten takım elbise, siyah balıkçı yaka triko elbise ve camel rengi trençkot, zamansız stiliniz için vazgeçilmezlerdir.
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Aksesuar Odak Noktası:</strong> Büyük, heykelsi bir kolye veya iddialı bir kemer kullanıyorsanız, diğer takıları minimal tutun. Vurguyu tek bir parçaya verin.
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Mevsimler Üst Üste:</strong> Yazlık slip elbisenizin üzerine kışın oversize hırka ve kalın bot giyerek parçalara dört mevsim hayat verin.
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Desen Karıştırma:</strong> Çizgili bir tişörtü, aynı tonlarda küçük çiçek desenli bir etekle birleştirin. Farklı ölçeklerdeki desenler bir arada çok iyi durur.
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Ayakkabı Karşıtlığı:</strong> Blazer ve kumaş pantolon gibi ciddi bir kombini kalın tabanlı spor ayakkabılarla tamamlayarak resmiyeti kırın (Smart-Casual).
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Çanta Kimlik Kartı:</strong> Kombin ne kadar sadeyse, çantanız o kadar gösterişli olabilir. (Örn: Siyah kot-tişört kombini + neon yeşil zincir çanta).
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Sıcak/Soğuk Dokular:</strong> Kışın kalın yün kazak ile parlak saten etek, yazın ise ince ipek gömlek ile kaba denim şort gibi zıt dokuları birleştirin.
-                </div>
-            </li>
-            <li>
-                <div style="border:2px solid #f7cce9; padding:14px; border-radius:14px; background:#fff4fb; margin-bottom:12px; color:#e75480;">
-                    <strong>Tek Renk Vurgusu:</strong> Tek bir canlı rengi (fuşya, elektrik mavisi) çantanızda, ayakkabınızda ve rujunuzda tekrar ederek sofistike bir uyum yakalayın.
-                </div>
-            </li>
-        </ul>
-    </div>
+/* Fareyi takip eden tozların dağılma ve yok olma animasyonu */
+@keyframes dustFall {
+    0% { transform: translate(0, 0) scale(1); opacity: 1; }
+    100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
+}
 
-<div id="kombinModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h3 id="modalTitle">Kombin Adı</h3>
-        <div class="modal-details">
-            <img id="modalImage" src="" alt="Kombin Detay Görseli">
-            <div>
-                <h4>Temel Parçalar</h4>
-                <ul id="modalList">
-                </ul>
-                <p style="font-style: italic; color: var(--pink-primary);">Ek Not: Bu kombin daha çok ilkbahar/sonbahar ayları için idealdir. Hava durumuna göre bir trençkot ekleyebilirsiniz.</p>
-            </div>
-        </div>
-    </div>
-</div>
+/* SCROLL REVEAL: Kaydırırken öğelerin belirmesi için başlangıç stilleri */
+.reveal-base { opacity: 0; transition: all 1s ease-out; }
+.reveal-up { transform: translateY(50px); }    /* Aşağıdan yukarı gelme */
+.reveal-left { transform: translateX(-50px); }  /* Soldan sağa gelme */
+.reveal-right { transform: translateX(50px); } /* Sağdan sola gelme */
+.reveal-zoom { transform: scale(0.8); }        /* Büyüyerek gelme */
+.is-visible { opacity: 1 !important; transform: none !important; } /* Görünür yapan sınıf */
 
+/* HEADER: Sabit Üst Menü Ayarları */
+.site-header {
+    position: fixed; top: 0; left: 0; right: 0; height: var(--header-height);
+    background: var(--header-grad);
+    box-shadow: 0 4px 25px rgba(255, 94, 182, 0.4);
+    z-index: 1000;
+    display: flex; justify-content: center; align-items: center;
+    backdrop-filter: blur(5px); /* Arka planı hafif bulanıklaştırır */
+}
+.header-inner {
+    width: 100%; max-width: var(--max-width); padding: 0 24px;
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+/* Logo ve Marka Tasarımı */
+.brand { display: flex; align-items: center; gap: 12px; }
+.logo-sq {
+    width: 54px; height: 54px; background: #fff; color: var(--color-brand);
+    border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); padding: 4px; transition: transform 0.3s;
+}
+.logo-sq:hover { transform: rotate(-5deg) scale(1.05); }
+
+.logo-top { font-weight: 900; font-size: 20px; line-height: 1; }
+.logo-bottom {
+    font-size: 7px; font-weight: 600; letter-spacing: 1px;
+    border-top: 2px solid var(--color-brand); width: 100%; text-align: center; margin-top: 3px; padding-top: 2px;
+}
+.brand-txt h1 {
+    font-size: 32px; color: #fff; letter-spacing: 1px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.2); line-height: 1; text-transform: uppercase;
+}
+
+/* Menü Butonu Stili */
+.nav-btn {
+    font-size: 13px; font-weight: 700; color: var(--color-brand); background: #fff;
+    padding: 10px 24px; border-radius: 30px; text-transform: uppercase; letter-spacing: 1px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.3s; border: 2px solid transparent;
+}
+.nav-btn:hover {
+    background: var(--bg-body); transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); border-color: #fff;
+}
+
+/* MARQUEE: Kayan Yazı Şeridi Tasarımı */
+.marquee-container {
+    background: #ffe6f2; border-bottom: 1px solid rgba(187, 69, 140, 0.2);
+    padding: 8px 0; overflow: hidden; white-space: nowrap;
+}
+.marquee-track { display: inline-block; animation: scrollLeft 25s linear infinite; }
+.marquee-item {
+    display: inline-block; font-size: 13px; font-weight: 800; color: var(--color-titles);
+    text-transform: uppercase; letter-spacing: 2px; padding: 0 30px;
+}
+.marquee-item::after { content: '✦'; margin-left: 30px; color: var(--color-brand); }
+
+/* MAGIC DUST: Fare efektindeki tozların CSS stilleri */
+.magic-dust {
+    position: fixed; pointer-events: none; border-radius: 50%; z-index: 9999;
+    animation: dustFall 1s ease-out forwards; filter: blur(0.5px);
+}
+
+/* CONTENT: Ana İçerik Yerleşimi */
+.main-stage { width: 92%; max-width: var(--max-width); margin: 40px auto; }
+
+.hero-section { text-align: center; margin-bottom: 60px; padding-bottom: 20px; position: relative; }
+.hero-label {
+    display: inline-block; padding: 6px 16px; background: var(--color-titles); color: #fff;
+    font-size: 11px; font-weight: 700; border-radius: 50px; margin-bottom: 20px;
+    letter-spacing: 1.5px; box-shadow: 0 4px 15px rgba(187, 69, 140, 0.3); animation: floatText 3s ease-in-out infinite;
+}
+.hero-title { font-size: clamp(36px, 6vw, 56px); color: var(--color-dark); margin-bottom: 15px; }
+.hero-title span {
+    color: var(--color-titles); font-style: italic; text-decoration: underline;
+    text-decoration-color: rgba(187, 69, 140, 0.4); text-underline-offset: 10px;
+    display: inline-block; transition: transform 0.3s;
+}
+.hero-title span:hover { transform: scale(1.05) rotate(-2deg); }
+.hero-desc { font-size: 17px; color: var(--color-gray); max-width: 650px; margin: 0 auto; }
+.scroll-indicator {
+    margin-top: 30px; font-size: 24px; color: var(--color-titles);
+    animation: bounceArrow 2s infinite; opacity: 0.7;
+}
+
+/* GRID: Sayfa düzenini sağlayan ızgara yapısı */
+.content-grid { display: grid; grid-template-columns: 2.3fr 1fr; gap: 40px; }
+
+.section-head {
+    font-size: 24px; color: var(--color-titles); margin-bottom: 25px;
+    display: flex; align-items: center; gap: 12px; text-transform: uppercase; letter-spacing: 0.5px;
+}
+.section-head::before {
+    content: ''; display: block; width: 8px; height: 28px;
+    background: var(--color-titles); border-radius: 4px;
+}
+
+/* TREND KARTLARI VE RENKLİ ÇERÇEVE */
+.radar-frame {
+    padding: 6px; border-radius: 24px; background: var(--glitter-grad);
+    background-size: 300% 300%; animation: borderFlow 4s infinite linear;
+    box-shadow: 0 20px 50px rgba(187, 69, 140, 0.25);
+}
+.radar-inner { background: #fff; border: 8px solid #ff5eb6; border-radius: 20px; padding: 25px; }
+.radar-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; }
+
+/* Trend Kartı Tasarımı */
+.trend-card {
+    background: #fff; border: 1px solid #f0f0f0; border-radius: 16px; overflow: hidden;
+    transition: all 0.4s; display: flex; flex-direction: column;
+}
+.trend-card:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0,0,0,0.1); border-color: #ffd1e8; }
+.card-img-wrap { height: 200px; width: 100%; overflow: hidden; background: #eee; }
+.card-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s; }
+.trend-card:hover .card-img-wrap img { transform: scale(1.1); }
+.card-info { padding: 18px; }
+.card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.card-title {
+    font-size: 16px; font-weight: 800; color: var(--color-titles);
+    background-color: #ffe6f2; padding: 6px 14px; border-radius: 30px; display: inline-block;
+}
+.icon-badge {
+    font-size: 16px; color: var(--color-titles); background: #FFF0F5; width: 32px; height: 32px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;
+}
+.trend-card:hover .icon-badge { transform: rotate(360deg); }
+.card-desc { font-size: 14px; color: #777; margin: 0; }
+
+/* PIECES: Sezonun Yıldızları Kartları */
+.pieces-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
+.piece-box {
+    position: relative; background: #fff; border-radius: 20px; padding: 22px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    overflow: hidden; transition: var(--trans-med); border: 2px solid transparent;
+    background-image: linear-gradient(#fff, #fff), var(--header-grad);
+    background-origin: border-box; background-clip: padding-box, border-box;
+    box-shadow: 0 10px 25px rgba(187, 69, 140, 0.08); height: 100%;
+}
+/* PALETTE: Geniş ve Ferah Tasarım */
+.palette-box {
+    background: rgba(255, 255, 255, 0.7); 
+    backdrop-filter: blur(10px); 
+    border-radius: 24px;
+    padding: 50px 80px; /* İç boşluğu artırarak daha ferah bir alan yarattık */
+    margin-top: 60px; 
+    margin-bottom: 40px;
+    display: flex; 
+    /* space-between öğeleri iki yana ve ortaya eşit dağıtır, araları açar */
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
+    flex-wrap: nowrap; 
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    width: 100%; /* Sayfanın tüm genişliğini kullanır */
+}
+
+.pal-item { 
+    text-align: center; 
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+    flex: 1; 
+    cursor: pointer;
+}
+
+/* Üzerine gelince daha belirgin bir yükselme efekti */
+.pal-item:hover { 
+    transform: translateY(-15px); 
+}
+
+.pal-circle {
+    width: 110px; /* Daireleri tam ekran için büyüttük */
+    height: 110px; 
+    border-radius: 50%; 
+    margin: 0 auto 20px;
+    border: 6px solid #fff; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+    position: relative; 
+    overflow: hidden;
+}
+
+.pal-circle::after {
+    content: ''; 
+    position: absolute; 
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.5) 0%, transparent 100%);
+}
+
+/* Renk Kodları */
+.c-pink { background: #F7B7C9; } 
+.c-lilac { background: #C8B3E8; } 
+.c-cream { background: #FFF6E0; }
+
+.pal-name { 
+    display: block; 
+    font-weight: 800; 
+    color: #333; 
+    font-size: 17px; 
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.pal-desc { 
+    font-size: 13px; 
+    color: #666; 
+    max-width: 220px; 
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Mobil cihazlar için otomatik alt alta geçiş */
+@media (max-width: 992px) {
+    .palette-box {
+        padding: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+}
+.piece-box:hover { transform: translateY(-8px) scale(1.03); box-shadow: 0 20px 45px rgba(187, 69, 140, 0.2); }
+.piece-box::before {
+    content: ''; position: absolute; top: 0; left: -75%; width: 50%; height: 100%;
+    background: rgba(255,255,255,0.4); transform: skewX(-25deg); transition: none; z-index: 5;
+}
+.piece-box:hover::before { animation: shineEffect 0.7s; }
+
+.piece-icon-bg {
+    width: 55px; height: 55px; background: linear-gradient(135deg, #FFF0F5, #ffe6f2);
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    margin-bottom: 15px; font-size: 26px; z-index: 2; box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.piece-header { width: 100%; display: flex; justify-content: space-between; align-items: flex-start; }
+.piece-tag {
+    font-size: 10px; font-weight: 800; color: #fff; background: var(--color-titles);
+    padding: 5px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px;
+}
+.piece-name {
+    font-size: 17px; font-weight: 800; color: #2D2D2D; margin: 5px 0 5px 0;
+    font-family: 'Playfair Display', serif; z-index: 2;
+}
+.piece-detail { font-size: 13px; color: #777; line-height: 1.4; z-index: 2; }
+/* SIDEBAR: Yan Menü Elemanları */
+.sidebar-widget {
+    background: #fff; border-radius: 16px; padding: 25px; margin-bottom: 30px;
+    border: 1px solid rgba(187, 69, 140, 0.1); box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+    position: relative; transition: transform 0.3s;
+}
+.sidebar-widget:hover { transform: translateY(-5px); }
+.widget-title {
+    font-size: 15px; font-weight: 800; color: var(--color-titles); text-align: center;
+    background-color: #ffe6f2; padding: 12px; border-radius: 8px; margin-bottom: 20px; letter-spacing: 1px;
+}
+.tips-list li { margin-bottom: 18px; display: flex; align-items: flex-start; gap: 15px; }
+.tip-icon { font-size: 20px; min-width: 24px; }
+.tip-text { font-size: 13px; color: #555; line-height: 1.5; }
+.tip-text strong { color: var(--color-titles); display: block; font-size: 11px; margin-bottom: 3px; }
+
+/* Lüks vs Bütçe Karşılaştırma Satırı */
+.dupe-row {
+    display: flex; align-items: center; justify-content: space-between; background: linear-gradient(to right, #FFF0F5, #fff);
+    padding: 15px 10px; border-radius: 12px; margin-bottom: 15px; border: 1px dashed rgba(187, 69, 140, 0.3);
+}
+.dupe-mid { font-size: 10px; font-weight: bold; color: #fff; background: var(--color-titles); padding: 4px 8px; border-radius: 20px; z-index: 2; }
+.dupe-side { display: flex; flex-direction: column; align-items: center; text-align: center; flex: 1; }
+.dupe-head { font-size: 8px; font-weight: 800; color: #999; margin-bottom: 5px; letter-spacing: 1px; }
+.dupe-item { font-size: 12px; font-weight: 700; color: #333; line-height: 1.2; max-width: 90px; }
+.dupe-price { font-size: 11px; color: var(--color-titles); text-decoration: underline; margin-top: 4px; font-weight: 600; }
+
+/* Top 5 Listesi Tasarımı */
+.top-list li {
+    display: flex; justify-content: space-between; align-items: center; padding: 12px 0;
+    border-bottom: 1px solid #f5f5f5; font-size: 13px; color: #444; transition: padding 0.2s;
+}
+.top-list li:hover { padding-left: 10px; color: var(--color-titles); background: linear-gradient(90deg, #fff0f5 0%, transparent 100%); }
+.rank-badge { font-weight: 900; font-family: 'Playfair Display', serif; color: var(--color-titles); margin-right: 10px; font-size: 18px; font-style: italic; }
+
+.main-footer {
+    text-align: center; margin-top: 80px; padding: 40px;
+    border-top: 1px solid rgba(0,0,0,0.05); background: #fff;
+}
+.footer-brand { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; color: var(--color-brand); margin-bottom: 10px; }
+.copyright { font-size: 12px; color: #999; }
+
+/* Mobil Uyumluluk Ayarları (Tablet ve Telefonlar İçin) */
+@media (max-width: 900px) {
+    .content-grid, .radar-cards, .pieces-row { grid-template-columns: 1fr; }
+    .hero-title { font-size: 34px; }
+}
+/* =========================================================
+   4. KISIM CSS — CHECKLIST + BUDGET + FOOTER
+   ========================================================= */
+
+/* 4. Kısım */
+/* .section-four {
+  background: #fde3ee;
+  padding: 60px 10%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 50px;
+}
+
+.checklist,
+.budget {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+}
+
+.checklist h2,
+.budget h2 {
+  color: #d63384;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.checklist ul,
+.budget ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.checklist li,
+.budget li {
+  margin-bottom: 10px;
+}
+
+/* Mobilde alt alta */
+@media (max-width: 768px) {
+  .section-four {
+    grid-template-columns: 1fr;
+    padding: 50px 6%;
+    gap: 25px;
+  }
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+  background: #fde3ee;
+  text-align: center;
+  padding: 70px 20px;
+  margin: 40px 10%;
+  border-radius: 18px;
+}
+
+.hero h1 {
+  color: #d63384;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* =========================
+   SOURCES (Kartlar)
+========================= */
+.sources {
+  padding: 40px 10% 60px;
+}
+
+.sources h2 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  border: 2px solid #f3b5d6;
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+  background: #fff;
+  transition: 0.25s ease;
+}
+
+.card i {
+  font-size: 30px;
+  color: silver;
+  margin-bottom: 12px;
+}
+
+.card:hover {
+  background: #ffe6f2;
+  border-color: #d63384;
+  transform: translateY(-2px);
+}
+
+.card:hover i {
+  color: #d63384;
+}
+
+/* =========================
+   4. KISIM (YAN YANA)
+   checklist + budget
+========================= */
+.section-four {
+  background: #fde3ee;
+  padding: 60px 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.checklist,
+.budget {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+}
+
+.checklist h2,
+.budget h2 {
+  color: #d63384;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.checklist ul,
+.budget ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.checklist li,
+.budget li {
+  margin-bottom: 10px;
+}
+
+/* Mobilde alt alta */
+@media (max-width: 768px) {
+  .hero {
+    margin: 30px 6%;
+  }
+
+  .sources {
+    padding: 30px 6% 50px;
+  }
+
+  .section-four {
+    grid-template-columns: 1fr;
+    padding: 50px 6%;
+    gap: 25px;
+  }
+}
+
+/* Footer */
+/* footer {
+  background: #fde3ee;
+  color: rgb(51, 49, 49);
+  padding: 35px 10%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-menu {
+  margin-bottom: 15px;
+}
+
+.footer-menu a {
+  color: rgb(51, 49, 49);
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.footer-menu a:hover {
+  color: #d63384;
+}
+
+.footer-info {
+  margin: 15px 0;
+  font-size: 13px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.social-icons a {
+  font-size: 22px;
+  margin: 0 8px;
+  color: silver;
+  transition: 0.25s;
+}
+
+.social-icons a:hover {
+  color: #d63384;
+} */
+
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  background: #fde3ee;;
+  color: rgb(51, 49, 49);
+  padding: 35px 10%;
+  text-align: center;
+  
+}
+
+.footer-menu {
+  margin-bottom: 15px;
+}
+
+.footer-menu a {
+  color: rgb(51, 49, 49);
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.footer-menu a:hover {
+  color: #d63384;
+}
+
+.footer-info {
+  margin: 15px 0;
+  font-size: 13px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.social-icons a {
+  font-size: 22px;
+  margin: 0 8px;
+  color: silver;
+  transition: 0.25s;
+}
+
+.social-icons a:hover {
+  color: #d63384;
+}
+</style>
 <script>
-    // Kombin Detay Verisi
-    const kombinData = {
-        1: { 
-            img: "img/sunumkombini.jpeg", 
-            items: [
-                "Zarif Saat",
-                "Minimal Çanta",
-                "Küçük Küpe (Halka)",
-                "Loafer veya Stiletto",
-                "Saçları Atkuyruğu Yapmak",
-                "Nude Tonlarda Ruj"
-            ] 
-        },
-        2: { 
-            img: "img/sinavhaftasikombini.jpeg", 
-            items: [
-                "Büyük Gözlük (Okuma)",
-                "Sırt Çantası",
-                "Renkli/Desenli Kalın Çorap",
-                "Bere veya Şapka",
-                "Bol Paça Eşofman",
-                "Termos veya Su Şişesi"
-            ] 
-        },
-        3: { 
-            img: "img/kafedebulusmakombini.jpeg", 
-            items: [
-                "Hasır Şapka (Yaz)",
-                "Güneş Gözlüğü",
-                "Mini Omuz Çantası",
-                "Saç Bandı veya Toka",
-                "Katmanlı Kolyeler",
-                "Kısa Topuklu Sandalet"
-            ] 
-        },
-        4: { 
-            img: "img/konserkombini.jpeg", 
-            items: [
-                "Zincir Askılı Çanta",
-                "Büyük Halkalı Küpeler",
-                "Parlak Ruj (Kırmızı/Bordo)",
-                "File Çorap (Mini Etekle)",
-                "Deri Ceket (Omuzda)",
-                "Işıltılı Göz Makyajı"
-            ] 
-        }
-    };
-
-    // 1. Arka Plan Animasyonu (Sadece Kalp ve Yıldız, Sayı Artırıldı)
-    const shapes = ['♥', '★'];
-    for(let i=0;i<120;i++){ 
-        const span = document.createElement('div');
-        span.className='background-shape';
-        span.innerText = shapes[Math.floor(Math.random()*shapes.length)];
-        span.style.left=Math.random()*95+'%';
-        span.style.fontSize=(30+Math.random()*40)+'px';
-        span.style.animationDuration=(4+Math.random()*6)+'s';
-        span.style.animationDelay=(-1 * Math.random()*6)+'s';
-        document.body.appendChild(span);
+// 1. Kombin Detay Verisi
+const kombinData = {
+    1: { 
+        img: "img/sunumkombini.jpeg", 
+        items: ["Zarif Saat", "Minimal Çanta", "Küçük Küpe (Halka)", "Loafer veya Stiletto", "Saçları Atkuyruğu Yapmak", "Nude Tonlarda Ruj"] 
+    },
+    2: { 
+        img: "img/sinavhaftasikombini.jpeg", 
+        items: ["Büyük Gözlük (Okuma)", "Sırt Çantası", "Renkli/Desenli Kalın Çorap", "Bere veya Şapka", "Bol Paça Eşofman", "Termos veya Su Şişesi"] 
+    },
+    3: { 
+        img: "img/kafedebulusmakombini.jpeg", 
+        items: ["Hasır Şapka (Yaz)", "Güneş Gözlüğü", "Mini Omuz Çantası", "Saç Bandı veya Toka", "Katmanlı Kolyeler", "Kısa Topuklu Sandalet"] 
+    },
+    4: { 
+        img: "img/konserkombini.jpeg", 
+        items: ["Zincir Askılı Çanta", "Büyük Halkalı Küpeler", "Parlak Ruj (Kırmızı/Bordo)", "File Çorap (Mini Etekle)", "Deri Ceket (Omuzda)", "Işıltılı Göz Makyajı"] 
     }
+};
 
-    // 2. Favori ve LocalStorage İşlevi
+// 2. Favori ve LocalStorage İşlemleri
+const favoritesKey = 'kombinFavorites';
+
+function initFavorites() {
     const favorites = document.querySelectorAll('.favorite');
-    const favoritesKey = 'kombinFavorites';
-
-    function loadFavorites() {
-        const storedFavorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
-        favorites.forEach(fav => {
-            const id = fav.getAttribute('data-id');
-            if (storedFavorites.includes(id)) {
-                fav.classList.add('active');
-            }
-        });
-    }
+    const storedFavorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
 
     favorites.forEach(fav => {
+        const id = fav.getAttribute('data-id');
+        if (storedFavorites.includes(id)) {
+            fav.classList.add('active');
+        }
+
         fav.addEventListener('click', (e) => {
             e.stopPropagation();
             fav.classList.toggle('active');
-            const id = fav.getAttribute('data-id');
-            let storedFavorites = JSON.parse(localStorage.getItem(favoritesKey)) || [];
+            let currentStored = JSON.parse(localStorage.getItem(favoritesKey)) || [];
 
             if (fav.classList.contains('active')) {
-                if (!storedFavorites.includes(id)) {
-                    storedFavorites.push(id);
-                }
+                if (!currentStored.includes(id)) currentStored.push(id);
             } else {
-                storedFavorites = storedFavorites.filter(favId => favId !== id);
+                currentStored = currentStored.filter(favId => favId !== id);
             }
-            
-            localStorage.setItem(favoritesKey, JSON.stringify(storedFavorites));
+            localStorage.setItem(favoritesKey, JSON.stringify(currentStored));
         });
     });
-    
-    loadFavorites();
+}
 
-
-    // 3. Modal (Detay Penceresi) İşlevi
+// 3. Modal (Detay Penceresi) Kontrolü
+function initModal() {
     const modal = document.getElementById("kombinModal");
-    const span = document.getElementsByClassName("close")[0];
+    const closeBtn = document.querySelector(".close");
     const cards = document.querySelectorAll('.card');
-    
+
     cards.forEach(card => {
         card.addEventListener('click', function() {
             const id = this.getAttribute('data-kombin-id');
             const title = this.getAttribute('data-title');
             const data = kombinData[id];
-            
+
             if (data) {
                 document.getElementById('modalTitle').innerText = title;
                 document.getElementById('modalImage').src = data.img;
                 
                 const ul = document.getElementById('modalList');
                 ul.innerHTML = '';
-                
                 data.items.forEach(item => {
                     const li = document.createElement('li');
-                    li.innerHTML = `+ ${item}`; // Düzeltilmiş metin içeriği
+                    li.innerText = `+ ${item}`;
                     ul.appendChild(li);
                 });
-                
                 modal.style.display = "block";
-            } else {
-                alert("Bu kombine ait detay bulunamadı!");
             }
         });
     });
 
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
+    closeBtn.onclick = () => modal.style.display = "none";
+    window.onclick = (event) => {
+        if (event.target == modal) modal.style.display = "none";
+    };
+}
 
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+// Başlat (Animasyon fonksiyonu çağrısı kaldırıldı)
+document.addEventListener('DOMContentLoaded', () => {
+    initFavorites();
+    initModal();
+});
 </script>
+<script>
+/* JAVASCRIPT: Sayfanın etkileşimli özelliklerini yöneten bölüm */
+document.addEventListener("DOMContentLoaded", function() {
+    
+    // --- 1. KAYDIRMA İLE BELİRME (Intersection Observer) ---
+    // Sayfa aşağı kaydırıldıkça 'reveal-base' sınıfına sahip öğelerin görünmesini sağlar.
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { 
+            if (entry.isIntersecting) { 
+                // Öğe ekrana girince 'is-visible' sınıfını ekler
+                entry.target.classList.add('is-visible'); 
+                // Bir kez göründükten sonra takip etmeyi bırakır (performans için)
+                observer.unobserve(entry.target); 
+            }
+        });
+    }, { threshold: 0.15 });
 
-</body>
-</html>
+    // Belirlenen tüm sınıfları izlemeye başla
+    document.querySelectorAll('.reveal-base').forEach(el => observer.observe(el));
+
+
+    // --- 2. SİHİRLİ TOZ EFEKTİ (Magic Dust) ---
+    // Fare hareket ettikçe arkasında renkli noktalar oluşmasını sağlar.
+    const colors = ["#ff5eb6", "#ffb2dd", "#ffffff", "#bb458c"];
+    
+    document.addEventListener("mousemove", (e) => {
+        const dust = document.createElement("div");
+        dust.classList.add("magic-dust");
+        
+        // Tozun boyutunu rastgele belirler (3px - 8px arası)
+        const size = Math.random() * 5 + 3;
+        dust.style.width = `${size}px`; 
+        dust.style.height = `${size}px`;
+        
+        // Renk dizisinden rastgele bir renk seçer
+        dust.style.background = colors[Math.floor(Math.random() * colors.length)];
+        
+        // Tozu farenin o anki koordinatlarına yerleştirir
+        dust.style.left = `${e.clientX}px`; 
+        dust.style.top = `${e.clientY}px`;
+        
+        // Havada uçuşma efekti için rastgele yön değişkenleri atar
+        dust.style.setProperty('--tx', `${(Math.random() - 0.5) * 50}px`);
+        dust.style.setProperty('--ty', `${Math.random() * 50 + 20}px`);
+        
+        // Tozu sayfaya ekler
+        document.body.appendChild(dust);
+        
+        // 1 saniye sonra (animasyon bittiğinde) tozu sayfadan siler (Belleği yormamak için)
+        setTimeout(() => {
+            dust.remove();
+        }, 1000);
+    });
+});
+</script>
